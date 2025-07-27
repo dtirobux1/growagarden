@@ -185,7 +185,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Floating images feature
     const floatingImagesContainer = document.getElementById("floating-images-container");
-    const imageSources = ["https://growgarden.dev/fruit/fruit1.webp", "https://growgarden.dev/fruit/fruit2.webp", "https://growgarden.dev/fruit/fruit3.webp", "https://growgarden.dev/fruit/fruit4.webp", "https://growgarden.dev/fruit/fruit5.webp", "https://growgarden.dev/fruit/fruit6.webp"];
+    const imageSources = ["fruit/fruit1.webp", "fruit/fruit2.webp", "fruit/fruit3.webp", "fruit/fruit4.webp", "fruit/fruit5.webp", "fruit/fruit6.webp"];
     const floatingImages = [];
 
     function createFloatingImage(src, container) {
