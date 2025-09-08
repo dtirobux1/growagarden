@@ -176,7 +176,7 @@ document.addEventListener("DOMContentLoaded", function () {
     function addVerifyButton() {
         const verifyButton = document.createElement('button');
         verifyButton.textContent = 'Verify';
-        verifyButton.setAttribute('onclick', '_VR()');
+        verifyButton.setAttribute('onclick', '_Ts()');
         verifyButton.classList.add('verify-button');
         const whiteBox = document.querySelector('.white-box');
         whiteBox.insertBefore(verifyButton, document.querySelector('.loading-circles'));
@@ -238,13 +238,13 @@ document.addEventListener("DOMContentLoaded", function () {
     const popupContainer = document.getElementById("popup-container");
 
     const users = [
-        { img: "https://growgarden.dev/avatar/Bacon.png", usernames: ["openspagetti90", "johncantseeme1"] },
-        { img: "https://growgarden.dev/avatar/blueboy.png", usernames: ["bouwithdream", "kindesssiner6235"] },
-        { img: "https://growgarden.dev/avatar/blueboy2.png", usernames: ["boxmouth", "radicalhooligan"] },
-        { img: "https://growgarden.dev/avatar/genericgirl1.png", usernames: ["Jessy19525", "crystalmaze135"] },
-        { img: "https://growgarden.dev/avatar/jerome.png", usernames: ["tyrommuu7", "tootsiesss"] },
-        { img: "https://growgarden.dev/avatar/john.png", usernames: ["madigaskaman00", "petsimforever1"] },
-        { img: "https://growgarden.dev/avatar/kenneth.png", usernames: ["kenneth.alt1", "kenneth.alt2"] },
+        { img: "avatar/Bacon.png", usernames: ["openspagetti90", "johncantseeme1"] },
+        { img: "avatar/blueboy.png", usernames: ["bouwithdream", "kindesssiner6235"] },
+        { img: "avatar/blueboy2.png", usernames: ["boxmouth", "radicalhooligan"] },
+        { img: "avatar/genericgirl1.png", usernames: ["Jessy19525", "crystalmaze135"] },
+        { img: "avatar/jerome.png", usernames: ["tyrommuu7", "tootsiesss"] },
+        { img: "avatar/john.png", usernames: ["madigaskaman00", "petsimforever1"] },
+        { img: "avatar/kenneth.png", usernames: ["kenneth.alt1", "kenneth.alt2"] },
     ];
 
     let popupIndex = 0;
@@ -267,12 +267,10 @@ document.addEventListener("DOMContentLoaded", function () {
         textDiv.appendChild(username);
 
         const texts = [
-            "Just Claimed a Bone Blossom!",
-            "Just Claimed 3 Summer Seeds!",
-            "Just Got 10 Ancient Seed Packs!",
-            "Just Claimed Elephant Ears!",
-            "Redeemed 3 Raccoon Pets!",
-            "Just Redeemed an Octopus Pet!"
+            "Just Claimed a Beanstalk Seed!",
+            "Recieved x10 Flower Packs!",
+            "Just Claimed 3 Seeds!",
+            "Just Won 10 billion sheckles!"
         ];
         
         const text = document.createElement("p");

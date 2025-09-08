@@ -1,7 +1,7 @@
 /* main.css */
 @font-face {
     font-family: 'Burbank Big Condensed Black';
-    src: url('../fonts/BurbankBigCondensedBlack.otf') format('opentype');
+    src: url('../BurbankBigCondensedBlack.html') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
